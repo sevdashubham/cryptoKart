@@ -1,0 +1,61 @@
+@import "../../styles";
+
+.sub-header-bar {
+  border-bottom: 1px solid $color-shadow;
+  padding: 5px 0 5px 0;
+}
+
+.strict-padding{
+  padding: 0;
+  margin: 0;
+}
+
+.same-line-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.preferences {
+  display: flex;
+  flex: 1 auto;
+  align-items: flex-start;
+}
+
+.preference-tab-1 {
+  flex-grow: 1;
+}
+
+.preference-tab-2 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.preference-tab-3 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.account-activity {
+  display: flex;
+  flex: 1 auto;
+  align-items: flex-start;
+}
+
+.account-activity-tab-1 {
+  flex-grow: 2;
+}
+
+.account-activity-tab-2 {
+  flex-grow: 1;
+}
+
+.account-activity-tab-3 {
+  flex-grow: 1;
+}
+
+.account-activity-tab-4 {
+  flex-grow: 2;
+}

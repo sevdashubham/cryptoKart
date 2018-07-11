@@ -1,0 +1,89 @@
+@import "../../styles";
+
+.profile-menu {
+  flex: 1;
+  align-self:center;
+  text-align: end;
+  justify-content: flex-end;
+}
+.blueAvatar {
+  background: #0171bf;
+}
+.text-logo {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, $color-primary 0%, $color-primary 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*Header*/
+.header-container {
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #F2F2F2;
+  background: $color-white;
+  padding: 0;
+}
+
+.logo {
+  flex: 1;
+  font-size: 30px;
+  color: $color-primary;
+  align-items: center;
+}
+.links {
+  flex: 11;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  flex: 11;
+  align-self: center;
+  text-align: left;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0 0 0 1.4em;
+  font-size: 0.9em;
+}
+
+header ul li a {
+  padding: 0 0 17px 0;
+  text-decoration: none;
+  color: $color-primary;
+}
+
+li a.active {
+  color: $color-primary;
+  border-bottom: 2px solid $color-primary;
+}
+
+li a:hover {
+  color: #B6B6B6;
+}
+
+@media screen and (min-width : 600px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav {
+    align-self: center;
+    margin: 1em 0;
+  }
+}
+
+.menu-dropdown {
+  margin: 40px 0 0 0;
+}

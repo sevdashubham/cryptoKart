@@ -1,0 +1,38 @@
+@import "../../styles";
+
+.sub-header {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 100%;
+}
+
+.content-left-sub-header {
+  flex: 1 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.content-right-sub-header {
+  flex: 1 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.list-view {
+  border: 1px solid $color-shadow;
+  border-radius: 4px;
+}
+.list-item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex: 1 100%;
+}
+.list-item-approved {
+  flex: 1 auto;
+
+}
+.list-item-bank-name {
+  flex: 1 auto;
+}
+.list-item-account-number {
+  flex: 2 auto;
+}

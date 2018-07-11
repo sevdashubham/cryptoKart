@@ -1,0 +1,11 @@
+@import "../../styles";
+
+.context-nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  &.active {
+    color: $color-primary;
+  }
+}

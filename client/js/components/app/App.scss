@@ -1,0 +1,79 @@
+$color-primary: #0171bf;
+$color-secondary: #F2F2F2;
+$color-background: #FFFFFF;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-shadow: #DEDEDE;
+$color-gradient1: #30CFD0;
+$color-gradient2: #330867;
+
+body {
+  background: #f1f1f1;
+  font-size: 16px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.25em;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  color: $color-black;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: $color-primary;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.25em;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: $color-primary;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  color: $color-black;
+}
+
+h5 {
+  padding: 5px 0 5px 0;
+  margin: 0;
+  font-size: .875em;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: $color-black;
+}
+
+h6 {
+  font-size: .875em;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  font-weight: 300;
+  color: $color-black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+textarea:focus {
+  outline: 0;
+}
+Link:focus {
+  outline: 0;
+}
+a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,26 @@
+@import "../../styles";
+
+.context-funds-nav{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid $color-shadow;
+}
+.funds-estimated-value {
+  flex: 1;
+  align-self: flex-start;
+}
+.funds-nav-list ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  align-self: flex-end;
+  list-style-type: none;
+}
+.funds-nav-list ul li {
+
+}
