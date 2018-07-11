@@ -1,3 +1,5 @@
+![alt text](https://hacked.com/wp-content/uploads/2018/03/Bitcoin.jpg)
+
 # crypto-kart
 
 a [Sails v1](https://sailsjs.com) application
